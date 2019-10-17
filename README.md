@@ -29,9 +29,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## TODO
-- [ ] Responsive Website
-    - [ ] Add bootstrap grid system 
-    - [ ] Add bootstrap mobile styles
+- [x] Responsive Website
+    - [x] Add bootstrap grid system 
+    - [x] Add bootstrap mobile styles
 - [ ] Home Page
     - [ ] Slider w/pictures
         - [ ] Adding to the slider (not obstructing the viewing of the image
