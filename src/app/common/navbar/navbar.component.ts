@@ -9,6 +9,7 @@ export class NavbarComponent implements OnInit {
 
   constructor() { }
   toggled = true
+  dropListToggled = false
   ngOnInit() {
   }
   onToggled(){
@@ -21,5 +22,9 @@ export class NavbarComponent implements OnInit {
     if(e.target.outerWidth < 998 && this.toggled) {
       this.toggled = false;
     }
+  }
+
+  toggleDropList() {
+    this.dropListToggled = !this.dropListToggled
   }
 }
