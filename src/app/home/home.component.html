@@ -1,32 +1,48 @@
+<!-- Navigation Bar Component-->
 <app-navbar></app-navbar>
-<ngb-carousel *ngIf="images">
-    <ng-template ngbSlide>
-        <div class="picsum-img-wrapper">
-            <img [src]="images[0]" alt="Random first slide">
+<!-- Carousel Component -->
+<app-carousel></app-carousel>
+
+<!-- Home Component Exclusive Evelments -->
+
+<section class="overview container">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center">H1 Placeholder</h1>
         </div>
-        <div class="carousel-caption">
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="../../assets/parliament-4516476_640.jpg" class="img-fluid" alt="">
         </div>
-    </ng-template>
-    <ng-template ngbSlide>
-        <div class="picsum-img-wrapper">
-            <img [src]="images[1]" alt="Random second slide">
-            <!-- <img src="../../assets/" alt=""> -->
+        <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. A arcu cursus vitae congue mauris rhoncus aenean. Vitae elementum curabitur vitae
+                nunc sed velit dignissim sodales. Rhoncus mattis rhoncus urna neque viverra justo nec. Elit scelerisque
+                mauris pellentesque pulvinar pellentesque habitant morbi tristique. Aliquet nec ullamcorper sit amet
+                risus. Elementum facilisis leo vel fringilla est ullamcorper eget. Interdum velit laoreet id donec. At
+                tellus at urna condimentum mattis pellentesque id nibh tortor. Tellus id interdum velit laoreet. Tellus
+                elementum sagittis vitae et leo duis ut diam quam. Tincidunt arcu non sodales neque sodales.</p>
         </div>
-        <div class="carousel-caption">
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. A arcu cursus vitae congue mauris rhoncus aenean. Vitae elementum curabitur vitae
+                nunc sed velit dignissim sodales. Rhoncus mattis rhoncus urna neque viverra justo nec. Elit scelerisque
+                mauris pellentesque pulvinar pellentesque habitant morbi tristique. Aliquet nec ullamcorper sit amet
+                risus. Elementum facilisis leo vel fringilla est ullamcorper eget. Interdum velit laoreet id donec. At
+                tellus at urna condimentum mattis pellentesque id nibh tortor. Tellus id interdum velit laoreet. Tellus
+                elementum sagittis vitae et leo duis ut diam quam. Tincidunt arcu non sodales neque sodales.</p>
         </div>
-    </ng-template>
-    <!-- <ng-template ngbSlide>
-      <div class="picsum-img-wrapper">
-        <img [src]="images[2]" alt="Random third slide">
-      </div>
-      <div class="carousel-caption">
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </div>
-    </ng-template> -->
-</ngb-carousel>
+        <div class="col-md-6">
+            <img src="../../assets/whale-1118876_640.jpg" class="img-fluid" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- Personal Info Component -->
+<app-pinfo></app-pinfo>
+
+<!-- Footer Component -->
 <app-footer></app-footer>

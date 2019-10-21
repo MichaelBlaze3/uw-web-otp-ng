@@ -1,0 +1,13 @@
+.pInfo {
+    background-color: darkcyan;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+@media only screen and (min-width: 736px) {
+    div.pInfo-fax-email {
+        div {
+            padding: 0;
+        }
+    }
+}

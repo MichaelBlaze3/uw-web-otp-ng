@@ -6,13 +6,16 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './common/navbar/navbar.component';
 import { FooterComponent } from './common/footer/footer.component';
-
+import { CarouselComponent } from './common/carousel/carousel.component';
+import { PinfoComponent } from './common/pinfo/pinfo.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    CarouselComponent,
+    PinfoComponent
   ],
   imports: [
     BrowserModule,
